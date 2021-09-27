@@ -1,0 +1,172 @@
+<!--
+http://live.datatables.net/lakilaxu/1/edit - онлайн-редактор для живого тестирования DtataTables
+https://datatables.net/download/ - скачать DtataTables
+https://datatables.net/plug-ins/i18n/ - плагин для русификации
+
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.datatables.net/1.11.0/css/jquery.dataTables.min.css" rel="stylesheet">
+
+    <title>Datatables Example</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <table class="table table-striped" id="table_id">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Код поставщика</th>
+                <th scope="col">Название</th>
+                <th scope="col">Страна</th>
+                <th scope="col">Адрес</th>
+                <th scope="col">Город</th>
+                <th scope="col">Срок выполнения</th>
+                <th scope="col">Срок доствки</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>2001</td>
+                <td>American саг</td>
+                <td>США</td>
+                <td>Ranerif 56</td>
+                <td>Нью-Уорк</td>
+                <td>3</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>2002</td>
+                <td>Audicorp</td>
+                <td>Германия</td>
+                <td>Boxstreet 343</td>
+                <td>Берлин</td>
+                <td>5</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>2003</td>
+                <td>Dreamcar</td>
+                <td>США</td>
+                <td>707 Oxford Rd.</td>
+                <td>Анн-Арбор</td>
+                <td>6</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>2004</td>
+                <td>Tokyo Trade</td>
+                <td>Япония</td>
+                <td>9-8 Sekimai</td>
+                <td>Токио</td>
+                <td>4</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>2005</td>
+                <td>Namityao</td>
+                <td>Япония</td>
+                <td>Calle del Rosal 47</td>
+                <td>Осака</td>
+                <td>3</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>2007</td>
+                <td>Kiyator</td>
+                <td>Япония</td>
+                <td>74 Rose St.</td>
+                <td>Токио</td>
+                <td>5</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>2010</td>
+                <td>Bigcar</td>
+                <td>Германия</td>
+                <td>Av. das Americanas 12.890</td>
+                <td>Франкфурт</td>
+                <td>4</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>2011</td>
+                <td>Motor</td>
+                <td>США</td>
+                <td>Trener 86</td>
+                <td>Бостон</td>
+                <td>6</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>2012</td>
+                <td>Tokiocar</td>
+                <td>Япония</td>
+                <td>Bogenallee 51</td>
+                <td>Токио</td>
+                <td>5</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>2018</td>
+                <td>Toyotacorp</td>
+                <td>Япония</td>
+                <td>203, Rue des Francs-Bourgeois</td>
+                <td>Токио</td>
+                <td>6</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>2022</td>
+                <td>Zaanse</td>
+                <td>Германия</td>
+                <td>Verkoorip 36 - 8</td>
+                <td>Франкфурт</td>
+                <td>6</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>2024</td>
+                <td>Goodway</td>
+                <td>США</td>
+                <td>170 Prince Edward Parade</td>
+                <td>Бостон</td>
+                <td>4</td>
+                <td>17</td>
+              </tr>
+            </tbody>
+          </table>      
+        </div>
+      </div>
+    </div>
+    
+    <!-- Подключение Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Подключение Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!-- https://developers.google.com/speed/libraries#jquery -->
+    <script src="https://cdn.datatables.net/1.11.0/js/jquery.dataTables.min.js"></script>
+    <script src="dataTables-init.js"></script>
+  </body>
+</html>
